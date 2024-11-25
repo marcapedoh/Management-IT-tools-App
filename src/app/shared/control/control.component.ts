@@ -20,7 +20,7 @@ export class ControlComponent implements AfterContentInit{
   //@ContentChild('input') private control?: ElementRef<HTMLInputElement | HTMLTextAreaElement>;
 
   ngAfterContentInit(): void {
-    ;
+    
   }
   private control = contentChild<ElementRef<HTMLInputElement | HTMLTextAreaElement>>('input')
   @HostListener('click') onClick() {
